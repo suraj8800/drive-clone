@@ -1,0 +1,30 @@
+#firstButton{
+    border-radius: 5px;
+    background-color: azure;
+    width: 200px;
+    margin-left: 600px;
+}
+
+#container{
+    border: 1px solid black;
+    display: flex;
+    margin-top: 10PX;
+}
+
+.folder{
+    background-color: aqua;
+    border-radius: 10px;
+
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.folder [action]{
+    text-decoration: underline;
+}
+
+div[purpose=name]{
+    margin-top: 50px;
+}
