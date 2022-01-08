@@ -3,20 +3,59 @@
     background-color: azure;
     width: 200px;
     margin-left: 600px;
+    cursor: pointer;
+}
+
+#firstButton:hover{
+    transform: scale(1.02);
+}
+
+#DivBreadCrumb{
+    border: 1px solid black;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.path{
+    cursor: pointer;
+    background-color: grey;
+    color: black;
+    padding: 10px;
+    border-right: 3px solid black;
+}
+
+.path:hover{
+    background-color: white;
+    color: blue;
+    text-decoration: underline;
 }
 
 #container{
     border: 1px solid black;
     display: flex;
     margin-top: 10PX;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.folder_tab, .folder {
+    margin: 0 auto;
+    background-color: #708090;
+}
+
+.folder_tab {
+    width: 60px;
+    height: 20px;
+    margin-right: 70%;
+    border-radius: 5px 15px 0 0;
 }
 
 .folder{
-    background-color: aqua;
-    border-radius: 10px;
-
+    border-radius: 5px;
     height: 100px;
-    width: 100px;
+    width: 120px;
     margin: 10px;
     padding: 10px;
 }
